@@ -1,0 +1,10 @@
+/*.aux
+/*.bbl
+/*.pdf
+/*.log
+/*.blg
+/*.fdb_latexmk
+/*.fls
+/*.out
+/*.synctex.gz
+Chapters/*.aux

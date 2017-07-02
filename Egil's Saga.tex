@@ -22,7 +22,7 @@
 \renewcommand{\chapterheadstart}{\vspace*{\beforechapskip}}
 \renewcommand{\printchaptername}{}
 \renewcommand{\chapternamenum}{\space}
-\renewcommand{\printchapternum}{\centering\chapnumfont \thechapter}
+\renewcommand{\printchapternum}{\centering\chapnumfont \Roman{chapter}}
 \renewcommand{\afterchapternum}{\centering\par\rule{1cm}{0.4pt}\nobreak\vskip \midchapskip}
 \renewcommand{\printchapternonum}{}
 \renewcommand*{\printchaptertitle}[1]{\centering\chaptitlefont #1}
@@ -33,6 +33,8 @@
 \setlength{\beforechapskip}{50pt}
 \setlength{\midchapskip}{20pt}
 \setlength{\afterchapskip}{40pt}
+\renewenvironment*{verse}
+{\begin{center}\begin{em}}{\end{em}\end{center}}
 
 \begin{document}
 	\include{Chapters/Chapter1}
@@ -69,5 +71,21 @@
 	\include{Chapters/Chapter32}
 	\include{Chapters/Chapter33}
 	\include{Chapters/Chapter34}
-
+        \include{Chapters/Chapter35}
+        \include{Chapters/Chapter36}
+        \include{Chapters/Chapter37}
+        \include{Chapters/Chapter38}
+        \include{Chapters/Chapter39}
+        \include{Chapters/Chapter40}
+        \include{Chapters/Chapter41}
+        \include{Chapters/Chapter42}
+        \include{Chapters/Chapter43}
+        \include{Chapters/Chapter44}
+        \include{Chapters/Chapter45}
+        \include{Chapters/Chapter46}
+        \include{Chapters/Chapter47}
+        \include{Chapters/Chapter48}
+        \include{Chapters/Chapter49}
+        \include{Chapters/Chapter50}
+        
 \end{document}
